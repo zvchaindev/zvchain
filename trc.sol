@@ -25,8 +25,7 @@ contract TokenTRC20 {
      *
      * Initializes contract with initial supply tokens to the creator of the contract
      */
-    function TokenTRC20(
-        uint256 initialSupply,
+    function TokenTRC20(   
         string tokenName,
         string tokenSymbol
     ) public {
